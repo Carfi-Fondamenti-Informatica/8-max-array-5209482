@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-    int dim;
-    cin >> dim;
-    float array[dim];
-    for (int i=0; i<dim ; i++){
+    int dimensione;
+    cin >> dimensione;
+    float array[dimensione];
+    for (int i=0; i<dimensione ; i++){
         cin >> array[i];
     }
-    float ris= max (dim,array);
-    cout << ris << endl;
-    return 0
-    }
+    float ris= max (dimensione,array);
+    cout<<ris<<endl;
+    return 0;
+}
