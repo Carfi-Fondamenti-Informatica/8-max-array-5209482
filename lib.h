@@ -1,5 +1,9 @@
-#ifndef UNTITLED15_LIB_H
-#define UNTITLED15_LIB_H
-float numeroMassimo(const float numeri[], int dimensione);
+//
+// Created by S5209482
+//
 
-#endif //UNTITLED15_LIB_H
+#ifndef ESERCITAZIONE_8_LIB_H
+#define ESERCITAZIONE_8_LIB_H
+float max(int a,float numeri[]);
+
+#endif //ESERCITAZIONE_8_LIB_H
