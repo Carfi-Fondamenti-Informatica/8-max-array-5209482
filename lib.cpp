@@ -1,12 +1,12 @@
 #include "lib.h"
-float numeroMassimo( const float numeri[], int dim){
-  numeri [dim] ;
-  float massimo = numeri[0];
-  for (int i=0  ; i < dim ; i++){
-    if(massimo < numeri[i]{
-      massimo = numeri[i];
+#include <cmath>
+#include <limits>
+float max(int a, float numeri[]){
+  float m=-INFINITY;
+  for (int i=0; i<a; i++){
+    if (numeri[i]>m){
+      m=numeri [i];
     }
-       }
-       return massimo;
-       
-       }
+  }
+  return m;
+}
