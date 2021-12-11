@@ -10,9 +10,7 @@ float numeroMassimo( const float numeri[], int dim){
     if(massimo < numeri[i]{
         massimo = numeri[i];
     }
-       }
-       return massimo;
-       }
-      
-      
-    
+  }
+  return massimo;
+  
+  }
